@@ -1,0 +1,81 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(85, 84, 84);
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(85, 84, 84);
+}
+
+p {
+    font-size: 20px;
+}
+
+.flexible-container {
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 70px;
+}
+
+.half-width img {
+    width: 90%;
+}
+
+a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-image: linear-gradient(rgb(253, 79, 48), rgb(251, 151, 75));
+}
+
+.about-me {
+    height: 400px;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+
+.recipie-intro {
+    text-align: center;
+}
+
+.one-third {
+    border-radius: 20px;
+    width: 30%;
+    padding: 20px;
+    margin-right: 100px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.one-third img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.social {
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 7%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.social-info {
+    padding-left: 15%;
+}
+
+footer {
+    height: 300px;
+    padding-top: 5%;
+}
